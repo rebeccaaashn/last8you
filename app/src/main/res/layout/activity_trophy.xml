@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".Trophy" android:background="#D0EAE7">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/teal_700"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_navigation"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trophy"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trophy Page" android:textSize="30dp" android:textStyle="bold" android:layout_marginLeft="30dp" android:layout_marginTop="5dp"/>
+        <!--         <TextView -->
+        <!--             android:layout_width="wrap_content" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:text="Total Point:" -->
+        <!--             android:layout_marginLeft="30dp" -->
+        <!--             android:textSize="20sp" -->
+        <!--             /> -->
+        <!--         <Button -->
+        <!--             android:id="@+id/testBtn" -->
+        <!--             android:layout_width="wrap_content" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:text="back"/> -->
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Let's exercise and get these badges!  "
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_margin="15dp"/> <!-- row 1 -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="200dp" android:orientation="horizontal">
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:src="@drawable/noclnewmove" android:layout_weight="1" android:layout_gravity="center" android:id="@+id/newmove" android:layout_marginHorizontal="10dp"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:src="@drawable/noclperfectweek" android:layout_weight="1" android:layout_gravity="center" android:id="@+id/perweek" android:layout_marginHorizontal="10dp"/>
+                </LinearLayout>
+                <!--         row 2  -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="200dp" android:orientation="horizontal">
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:src="@drawable/movegoal10" android:layout_weight="1" android:layout_gravity="center" android:id="@+id/goal10" android:layout_marginHorizontal="10dp"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:src="@drawable/noclmovegoal20" android:layout_weight="1" android:layout_gravity="center" android:id="@+id/goal20" android:layout_marginHorizontal="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+<!--        <ImageView android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:src="@drawable/movegoal10"-->
+<!--            android:id="@+id/badge1000"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:scaleType="fitCenter"/>-->
+
+<!--    <ImageView android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/movegoal10"-->
+<!--        android:id="@+id/badge2000"-->
+<!--        android:layout_marginLeft="210dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:scaleType="fitCenter"/>-->
+
+<!--    <ImageView android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/movegoal10"-->
+<!--        android:id="@+id/badgeNew"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:scaleType="fitCenter"/>-->
+
+<!--    <ImageView android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/movegoal10"-->
+<!--        android:id="@+id/badgeperfectweek"-->
+<!--        android:layout_marginLeft="210dp"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:scaleType="fitCenter"/>-->
+<!--    </RelativeLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/testBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:text="back"-->
+<!--        android:layout_marginLeft="30dp"/>-->
+
+</RelativeLayout>

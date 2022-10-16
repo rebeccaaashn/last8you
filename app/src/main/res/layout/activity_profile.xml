@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:background="#D0EAE7">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/testBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:text="back"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Acitivities"-->
+        <!--            android:layout_marginTop="20sp"-->
+        <!--            android:layout_marginLeft="25dp"-->
+        <!--            android:textSize="30sp"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            />-->
+        <!--        <TextView-->
+        <!--            android:id="@+id/edit"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text=" Profile "-->
+        <!--            android:textSize="30dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:layout_marginBottom="0dp"-->
+        <!--            android:textColor="@color/black" />-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-150dp">
+<!--            <TextView-->
+<!--                android:id="@+id/greeting"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="20sp"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginLeft="15dp"/>-->
+
+            <TextView
+                android:id="@+id/emailAddressTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address:"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/emailAddress1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/fullNameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name:"
+                android:textStyle="bold"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="-240dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/fullName1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/ageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:textStyle="bold"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="-200dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/age1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="0dp"/>
+
+            <TextView
+                android:id="@+id/weightTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="weight:"
+                android:textStyle="bold"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="-140dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/weight1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="0dp"/>
+            <TextView
+                android:id="@+id/heighttitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="weight:"
+                android:textStyle="bold"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="-200dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/height1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="0dp"/>
+
+        </LinearLayout>
+
+<!--<TextView-->
+<!--    android:layout_width="200dp"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:hint="name"-->
+<!--    android:id="@+id/nameView"-->
+<!--    android:textSize="20sp"/>-->
+
+
+        <Button
+            android:id="@+id/goToEdit"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="edit profile"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/calcBMI"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Check BMI"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/subs"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="subscription"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:id="@+id/game"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="Games"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/locationn"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="location"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="logout"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/teal_700"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_navigation" />
+    </LinearLayout>
+</ScrollView>
